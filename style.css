@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(63, 146, 106);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+}
+
+h1{
+    color: rgb(82, 184, 184);
+    display: inline-block;
+    background-color: white;
+    width: 90px;
+    border: teal solid 2px;
+    border-radius: 20px;
+}
+
+h2{
+    background-color: gray;
+    width: 200PX;
+    display: inline-block;
+    border: rgb(88, 40, 42) solid 5px;
+}
+
+button{
+    background-color: rgb(34, 100, 224);
+    width: 60PX;
+    padding: 3px;
+    border: grey 2px solid;
+}
+
+button:hover{
+background-color: white;
+}
+
+
+.container{
+    background-color: gray;
+    width: 500px;
+    display: inline-block;
+    height: 200px;
+    border: teal solid 5px;
+    box-shadow: rgb(29, 195, 236) 5px solid;
+}
+
+
+@media only screen and (max-width: 400px){
+    container{
+        width: 200px;
+    }
+}
